@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "serve": "babel-node index",
-    "start": "nodemon --exec babel-node index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node index",
+    "test": "nodemon --exec babel-node index"
   },
   "keywords": [],
   "author": "",
