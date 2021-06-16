@@ -5,7 +5,7 @@ import typeDefs from "./graphql/typeDefs";
 import resolvers from "./graphql/resolvers/index";
 import { MONGODB } from "./config";
 
-const PORT = process.env.port || 5000;
+const PORT = process.env.PORT || 5000;
 const pubsub = new PubSub();
 const server = new ApolloServer({
   typeDefs,
